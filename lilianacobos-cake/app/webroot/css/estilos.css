@@ -1,0 +1,50 @@
+.social-icons a{
+    font-size: calc(1.5rem + 1.5vw);
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+
+}
+
+.social-icons a:hover{
+    font-size: calc(1rem + 1.6vw);
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+   
+}
+
+.social-icons i{
+    font-size: calc(1.5rem + 1.5vw);
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+
+}
+
+.idiomas a{
+    font-size: calc(0.3rem + 1.4vw);
+    transition: 0.3s;
+
+}
+
+
+@media only screen and (max-width: 770px) {
+.logo{
+    margin-top:0px;
+}
+
+}
+
+.cover-image{
+    border-radius: 20px;
+   
+}
+
+.img-noticia{
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin:18px;
+}
